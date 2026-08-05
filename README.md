@@ -1,6 +1,6 @@
 # Landing Carlos Esteva
 
-One-page sales landing for Carlos Esteva, an online fitness coach (12+ years of experience, natural bodybuilding pro cards). Target audience: Spanish-speaking men over 30 who want to lose fat with a personalized, contract-guaranteed coaching method. Primary conversion action: WhatsApp contact.
+One-page sales landing for Carlos Esteva, an online fitness coach (12+ years of experience, bodybuilding pro cards). His coaching methodology is branded "Método E.S". Target audience: Spanish-speaking men over 30 who want to lose fat with a personalized, contract-guaranteed coaching method. Primary conversion action: WhatsApp contact.
 
 Live: https://fitleads-developers.github.io/landing-carlos-esteva/
 
@@ -14,7 +14,7 @@ Live: https://fitleads-developers.github.io/landing-carlos-esteva/
   - Success-cases carousels (3 rows: fat loss ×18, muscle gain ×7, women ×7; horizontal scroll-snap)
   - NO/SÍ qualification cards
   - 4-step process
-  - "Día a día" media section: Esteva System vertical explainer video (phone frame, controls) + 4 muted autoplay loops (leg/biceps/shoulder training, cooking)
+  - "Día a día" media section: Método E.S vertical explainer video (phone frame, controls) + 4 muted autoplay loops (leg/biceps/shoulder training, cooking)
   - About Carlos + stats
   - Competition photo strip (Campeonato de España 2026, 6 photos)
   - 6 five-star reviews
@@ -42,7 +42,7 @@ All optimized derivatives live in `img/` and `video/`; the raw source material t
 - `img/campeonato-1..6.webp` — Campeonato de España 2026 stage photos, 760px tall, WebP q78.
 - `img/logo.webp` + `favicon.png` — the "Preparador Físico Carlos Esteva" logo (from client resources); favicon is the logo on a square canvas over the site background color.
 - `video/entreno-{pierna,biceps,hombro}.mp4`, `video/nutricion-cocina.mp4` — 10s muted loops cut from the client's `.MOV`s, 720p H.264 CRF28, ~1-3 MB each, with WebP posters.
-- `video/correccion-tecnica.mp4` — full "Método Esteva System" vertical explainer (2:33, with audio), 540×960 H.264 CRF30, ~15 MB, played with controls.
+- `video/correccion-tecnica.mp4` — full "Método E.S" vertical explainer (2:33, with audio), 540×960 H.264 CRF30, ~15 MB, played with controls.
 
 ## Pending
 
