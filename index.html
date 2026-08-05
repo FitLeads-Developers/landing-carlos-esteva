@@ -5,11 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Carlos Esteva — Asesorías fitness online | Resultados garantizados por contrato</title>
 <meta name="description" content="Pierde grasa y recupera tu físico con un método 100% personalizado para hombres de más de 30. +12 años de experiencia y garantía real firmada por contrato: si no lo consigues, te devuelvo el dinero.">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" href="favicon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Carlos Esteva — Asesorías fitness online">
 <meta property="og:description" content="Método personalizado con resultados garantizados por contrato. Si no lo consigues, te devuelvo el dinero.">
-<meta property="og:image" content="https://fitleads-developers.github.io/landing-carlos-esteva/img/carlos-esteva.webp">
+<meta property="og:image" content="https://fitleads-developers.github.io/landing-carlos-esteva/img/carlos-hero.webp">
+<link rel="preload" as="image" href="img/carlos-hero.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
 <style>
@@ -24,6 +25,21 @@ img{max-width:100%}
 .caso-row{scrollbar-width:none}.caso-row::-webkit-scrollbar{display:none}
 .caso-row img{height:440px;width:auto;border-radius:14px;scroll-snap-align:center;box-shadow:0 12px 32px rgba(0,0,0,.35)}
 @media (max-width:480px){.caso-row img{height:360px}}
+.caso-label{display:flex;align-items:center;gap:12px;max-width:1080px;margin:36px auto 16px;padding:0 24px}
+.caso-label .pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:7px 18px;font-weight:800;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;color:#fff}
+.caso-label .line{flex:1;height:1px;background:rgba(255,255,255,.18)}
+.hero-grid{display:flex;gap:40px;align-items:center;flex-wrap:wrap}
+.hero-grid>.hero-copy{flex:1 1 460px}
+.hero-grid>.hero-photo{flex:1 1 300px;display:flex;justify-content:center}
+.hero-photo img{width:100%;max-width:400px;height:auto;border-radius:18px;box-shadow:0 24px 60px rgba(4,12,35,.5);border:1px solid rgba(255,255,255,.18)}
+.video-card{background:#0b1e4b;border-radius:16px;overflow:hidden;box-shadow:0 12px 32px rgba(11,30,75,.18);position:relative}
+.video-card video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.video-card .tag{position:absolute;left:14px;bottom:12px;background:rgba(7,18,51,.78);color:#fff;font-weight:800;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:7px 14px;border-radius:999px}
+.phone-frame{background:#071233;border-radius:26px;padding:10px;box-shadow:0 24px 60px rgba(7,18,51,.35);max-width:300px;width:100%}
+.phone-frame video{display:block;width:100%;border-radius:18px;aspect-ratio:9/16;object-fit:cover;background:#000}
+.camp-row{scrollbar-width:none}.camp-row::-webkit-scrollbar{display:none}
+.camp-row img{height:340px;width:auto;border-radius:14px;scroll-snap-align:center;box-shadow:0 12px 32px rgba(0,0,0,.35)}
+@media (max-width:480px){.camp-row img{height:260px}}
 .faq-item p[hidden]{display:none}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}50%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
 </style>
@@ -42,13 +58,18 @@ img{max-width:100%}
       <div style="font-family:'Archivo Black',sans-serif;font-style:italic;font-size:20px;letter-spacing:.5px">CARLOS <span style="color:#8fb4ff">ESTEVA</span></div>
       <a class="cta-btn" href="https://wa.me/34606433741?text=Hola%20Carlos!%20Quiero%20informaci%C3%B3n%20sobre%20las%20asesor%C3%ADas" style="background:#25d366;color:#062b16;font-weight:800;font-size:14px;padding:10px 20px;border-radius:999px;white-space:nowrap">Escríbeme por WhatsApp</a>
     </div>
-    <div style="max-width:820px">
-      <div style="display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:7px 16px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:24px">A un click de tu mejor versión</div>
-      <h1 style="font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(30px,5.2vw,58px);line-height:1.04;margin:0 0 18px;text-shadow:0 4px 0 rgba(7,18,51,.45)">No necesitas otra dieta de internet.</h1>
-      <h2 style="font-family:'Barlow',sans-serif;font-weight:800;font-size:clamp(20px,2.8vw,30px);line-height:1.25;margin:0 0 20px;color:#cdddff">Necesitas un sistema que funcione para un hombre de más de 30.</h2>
-      <p style="font-size:clamp(16px,1.8vw,19px);line-height:1.55;margin:0 0 14px;max-width:640px">Pierde grasa y recupera tu físico con un método personalizado, sostenible y respaldado por una <strong>GARANTÍA REAL</strong>: si no lo consigues, te devuelvo el dinero.</p>
-      <p style="font-size:14px;font-weight:600;color:#9db9f2;margin:0 0 32px">+12 años de experiencia · 3 tarjetas profesionales en culturismo natural · Garantía firmada por contrato</p>
-      <a class="cta-btn" href="https://wa.me/34606433741?text=Hola%20Carlos!%20Quiero%20informaci%C3%B3n%20sobre%20las%20asesor%C3%ADas" style="display:inline-block;background:#fff;color:#0b1e4b;font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(15px,1.6vw,18px);padding:18px 34px;border-radius:12px;box-shadow:0 8px 24px rgba(7,18,51,.4)">Verifica si calificas →</a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div style="display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:7px 16px;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:24px">A un click de tu mejor versión</div>
+        <h1 style="font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(30px,5.2vw,58px);line-height:1.04;margin:0 0 18px;text-shadow:0 4px 0 rgba(7,18,51,.45)">No necesitas otra dieta de internet.</h1>
+        <h2 style="font-family:'Barlow',sans-serif;font-weight:800;font-size:clamp(20px,2.8vw,30px);line-height:1.25;margin:0 0 20px;color:#cdddff">Necesitas un sistema que funcione para un hombre de más de 30.</h2>
+        <p style="font-size:clamp(16px,1.8vw,19px);line-height:1.55;margin:0 0 14px;max-width:640px">Pierde grasa y recupera tu físico con un método personalizado, sostenible y respaldado por una <strong>GARANTÍA REAL</strong>: si no lo consigues, te devuelvo el dinero.</p>
+        <p style="font-size:14px;font-weight:600;color:#9db9f2;margin:0 0 32px">+12 años de experiencia · 3 tarjetas profesionales en culturismo natural · Garantía firmada por contrato</p>
+        <a class="cta-btn" href="https://wa.me/34606433741?text=Hola%20Carlos!%20Quiero%20informaci%C3%B3n%20sobre%20las%20asesor%C3%ADas" style="display:inline-block;background:#fff;color:#0b1e4b;font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(15px,1.6vw,18px);padding:18px 34px;border-radius:12px;box-shadow:0 8px 24px rgba(7,18,51,.4)">Verifica si calificas →</a>
+      </div>
+      <div class="hero-photo">
+        <img src="img/carlos-hero.webp" alt="Carlos Esteva, preparador físico" width="840" height="840" fetchpriority="high" decoding="async">
+      </div>
     </div>
   </div>
 </header>
@@ -122,6 +143,38 @@ img{max-width:100%}
     <h2 style="font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(26px,3.6vw,40px);line-height:1.1;margin:0 0 14px">Ell@s ya lo hicieron</h2>
     <p style="font-size:17px;color:#bcd2ff;margin:0 0 36px">Transformaciones auténticas de personas que confiaron en el método. Desliza para ver más.</p>
   </div>
+  <div class="caso-label"><span class="pill">Pérdida de grasa</span><span class="line"></span></div>
+  <div class="caso-row" style="display:flex;gap:20px;overflow-x:auto;padding:4px 24px 12px;scroll-snap-type:x mandatory;max-width:1180px;margin:0 auto">
+    <img src="img/caso-perdida-1.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-2.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-3.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-4.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-5.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-6.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-7.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-8.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-9.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-10.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-11.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-12.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-13.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-14.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-15.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-16.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-17.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-perdida-18.webp" alt="Antes y después de un cliente de Carlos Esteva: pérdida de grasa" width="704" height="880" loading="lazy" decoding="async">
+  </div>
+  <div class="caso-label"><span class="pill">Ganancia muscular</span><span class="line"></span></div>
+  <div class="caso-row" style="display:flex;gap:20px;overflow-x:auto;padding:4px 24px 12px;scroll-snap-type:x mandatory;max-width:1180px;margin:0 auto">
+    <img src="img/caso-masa-1.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-2.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-3.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-4.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-5.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-6.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+    <img src="img/caso-masa-7.webp" alt="Antes y después de un cliente de Carlos Esteva: ganancia muscular" width="704" height="880" loading="lazy" decoding="async">
+  </div>
+  <div class="caso-label"><span class="pill">Ellas también</span><span class="line"></span></div>
   <div class="caso-row" style="display:flex;gap:20px;overflow-x:auto;padding:4px 24px 12px;scroll-snap-type:x mandatory;max-width:1180px;margin:0 auto">
     <img src="img/caso-1.webp" alt="Antes y después de una clienta de Carlos Esteva" width="704" height="880" loading="lazy" decoding="async">
     <img src="img/caso-2.webp" alt="Antes y después de una clienta de Carlos Esteva" width="704" height="880" loading="lazy" decoding="async">
@@ -181,10 +234,33 @@ img{max-width:100%}
   </div>
 </section>
 
+<!-- ENTRENAMIENTO REAL -->
+<section style="max-width:1080px;margin:0 auto;padding:80px 24px">
+  <div style="text-align:center;max-width:720px;margin:0 auto 44px">
+    <div style="color:#1758c8;font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:13px;margin-bottom:12px">Sin filtros</div>
+    <h2 style="font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(26px,3.6vw,40px);line-height:1.1;margin:0 0 14px">Así es el día a día del método</h2>
+    <p style="font-size:17px;color:#4a5670;margin:0">Entrenamiento real, comida real y correcciones de técnica en vídeo. Esto es lo que te llevas cada semana.</p>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:36px;align-items:center;justify-content:center">
+    <div style="flex:0 1 300px;display:flex;flex-direction:column;align-items:center;gap:16px">
+      <div class="phone-frame">
+        <video src="video/correccion-tecnica.mp4" poster="video/correccion-tecnica-poster.webp" controls preload="none" playsinline></video>
+      </div>
+      <p style="margin:0;text-align:center;font-weight:700;color:#0b1e4b;font-size:15px;max-width:280px">El método Esteva System, explicado por Carlos. Dale al play.</p>
+    </div>
+    <div style="flex:1 1 480px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+      <div class="video-card"><video src="video/entreno-pierna.mp4" poster="video/entreno-pierna-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Entrenamiento de pierna en el gimnasio"></video><span class="tag">Pierna</span></div>
+      <div class="video-card"><video src="video/entreno-biceps.mp4" poster="video/entreno-biceps-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Entrenamiento de bíceps en el gimnasio"></video><span class="tag">Bíceps</span></div>
+      <div class="video-card"><video src="video/entreno-hombro.mp4" poster="video/entreno-hombro-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Entrenamiento de hombro en el gimnasio"></video><span class="tag">Hombro</span></div>
+      <div class="video-card"><video src="video/nutricion-cocina.mp4" poster="video/nutricion-cocina-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Cocinando comida real"></video><span class="tag">Comida real</span></div>
+    </div>
+  </div>
+</section>
+
 <!-- SOBRE CARLOS -->
 <section style="max-width:1080px;margin:0 auto;padding:80px 24px;display:flex;flex-wrap:wrap;gap:44px;align-items:center">
   <div style="flex:1 1 320px;display:flex;justify-content:center">
-    <img src="img/carlos-esteva.webp" alt="Carlos Esteva" width="840" height="840" loading="lazy" decoding="async" style="width:100%;max-width:420px;height:auto;border-radius:18px;box-shadow:0 20px 50px rgba(11,30,75,.25)">
+    <img src="img/carlos-about.webp" alt="Carlos Esteva" width="840" height="840" loading="lazy" decoding="async" style="width:100%;max-width:420px;height:auto;border-radius:18px;box-shadow:0 20px 50px rgba(11,30,75,.25)">
   </div>
   <div style="flex:1 1 420px">
     <div style="color:#1758c8;font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:13px;margin-bottom:12px">Quién está detrás</div>
@@ -196,6 +272,23 @@ img{max-width:100%}
       <div style="background:#fff;border-radius:12px;padding:18px;text-align:center"><div style="font-family:'Archivo Black',sans-serif;font-style:italic;color:#1758c8;font-size:28px">3</div><div style="font-size:13px;font-weight:700;color:#4a5670;text-transform:uppercase;letter-spacing:1px">tarjetas pro en culturismo natural</div></div>
       <div style="background:#fff;border-radius:12px;padding:18px;text-align:center"><div style="font-family:'Archivo Black',sans-serif;font-style:italic;color:#1758c8;font-size:28px">5★</div><div style="font-size:13px;font-weight:700;color:#4a5670;text-transform:uppercase;letter-spacing:1px">28 reseñas verificadas</div></div>
     </div>
+  </div>
+</section>
+
+<!-- COMPETICION -->
+<section style="background:linear-gradient(155deg,#0b1e4b,#123a8f);padding:80px 0;color:#fff">
+  <div style="max-width:1080px;margin:0 auto;padding:0 24px;text-align:center">
+    <div style="color:#8fb4ff;font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:13px;margin-bottom:12px">Predicar con el ejemplo</div>
+    <h2 style="font-family:'Archivo Black',sans-serif;font-style:italic;text-transform:uppercase;font-size:clamp(26px,3.6vw,40px);line-height:1.1;margin:0 0 14px">Culturismo natural de competición</h2>
+    <p style="font-size:17px;color:#bcd2ff;margin:0 0 36px">3 tarjetas profesionales. Campeonato de España 2026. El mismo método que aplico contigo, llevado al extremo.</p>
+  </div>
+  <div class="camp-row" style="display:flex;gap:20px;overflow-x:auto;padding:4px 24px 12px;scroll-snap-type:x mandatory;max-width:1180px;margin:0 auto">
+    <img src="img/campeonato-1.webp" alt="Carlos Esteva posando en el Campeonato de España 2026" loading="lazy" decoding="async">
+    <img src="img/campeonato-2.webp" alt="Carlos Esteva posando en el Campeonato de España 2026" loading="lazy" decoding="async">
+    <img src="img/campeonato-3.webp" alt="Carlos Esteva posando en el Campeonato de España 2026" loading="lazy" decoding="async">
+    <img src="img/campeonato-4.webp" alt="Comparativa sobre el escenario en el Campeonato de España 2026" loading="lazy" decoding="async">
+    <img src="img/campeonato-5.webp" alt="Comparativa sobre el escenario en el Campeonato de España 2026" loading="lazy" decoding="async">
+    <img src="img/campeonato-6.webp" alt="Comparativa sobre el escenario en el Campeonato de España 2026" loading="lazy" decoding="async">
   </div>
 </section>
 
@@ -304,7 +397,10 @@ Por eso primero realizo una evaluación inicial gratuita donde analizamos tu pun
 <!-- FOOTER -->
 <footer style="background:#071233;color:#8ea3cf;padding:36px 24px;font-size:14px">
   <div style="max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between">
-    <div style="font-family:'Archivo Black',sans-serif;font-style:italic;color:#fff;font-size:16px">CARLOS <span style="color:#8fb4ff">ESTEVA</span></div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <img src="img/logo.webp" alt="" width="44" height="44" loading="lazy" decoding="async" style="border-radius:50%">
+      <span style="font-family:'Archivo Black',sans-serif;font-style:italic;color:#fff;font-size:16px">CARLOS <span style="color:#8fb4ff">ESTEVA</span></span>
+    </div>
     <div style="display:flex;gap:20px;flex-wrap:wrap">
       <a href="https://www.instagram.com/carlos.esteva_/" style="color:#bcd2ff;font-weight:600">Instagram</a>
       <a href="politica-de-privacidad.html" style="color:#8ea3cf">Política de privacidad</a>
