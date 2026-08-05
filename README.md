@@ -18,6 +18,9 @@ Live: https://fitleads-developers.github.io/landing-carlos-esteva/
   - 6 five-star reviews
   - FAQ accordion (vanilla JS, one item open at a time)
   - Final CTA + footer + floating WhatsApp button
+- `politica-de-privacidad.html` — privacy policy, same text as carlosesteva.es restyled to the landing design
+- `aviso-legal.html` — legal notice, same text as carlosesteva.es restyled to the landing design
+- `informacion-de-contacto.html` — contact information (name, phone, email, address) in the landing design
 
 ## Stack
 
@@ -36,6 +39,6 @@ Converted from a Claude Design canvas (`Landing Carlos Esteva.dc.html`): the `sc
 
 - [ ] Not yet verified in a real browser at 360/768/1280 px — layout is inline-styled with `clamp()`, flex-wrap and auto-fit grids from the design canvas, and media queries were reviewed statically, but do a visual pass after the first deploy.
 - [ ] Presentation video stays on Vimeo (external embed, not committed — would bloat the repo).
-- [ ] Privacy policy / legal notice links point to carlosesteva.es pages (no local legal pages).
+- [ ] `aviso-legal.html` keeps the original placeholder fields verbatim ("[añadir tu número o CIF…]", "[tu email de contacto profesional]", "[tu dirección fiscal o profesional]") — the source page on carlosesteva.es was never filled in. Ask Carlos for the real data.
 - [ ] No analytics/tracking pixel yet.
 - [ ] Custom domain not configured (served from github.io).
