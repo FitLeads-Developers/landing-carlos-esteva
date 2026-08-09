@@ -2,7 +2,7 @@
 
 One-page sales landing for Carlos Esteva, an online fitness coach (12+ years of experience, bodybuilding pro cards). His coaching methodology is branded "Método E.S". Target audience: Spanish-speaking men over 30 who want to lose fat with a personalized, contract-guaranteed coaching method. Primary conversion action: WhatsApp contact.
 
-Live: https://fitleads-developers.github.io/landing-carlos-esteva/
+Live: https://carlosesteva.es (custom domain via `CNAME`; also served at https://fitleads-developers.github.io/landing-carlos-esteva/)
 
 ## Pages
 
@@ -23,6 +23,7 @@ Live: https://fitleads-developers.github.io/landing-carlos-esteva/
 - `politica-de-privacidad.html` — privacy policy, same text as carlosesteva.es restyled to the landing design
 - `aviso-legal.html` — legal notice, same text as carlosesteva.es restyled to the landing design
 - `informacion-de-contacto.html` — contact information (name, phone, email, address) in the landing design
+- `404.html` — custom not-found page in the landing design (GitHub Pages serves it automatically for unknown URLs), `noindex`, link back to home
 
 ## Stack
 
@@ -50,4 +51,3 @@ All optimized derivatives live in `img/` and `video/`; the raw source material t
 - [ ] Presentation video stays on Vimeo (external embed, not committed — would bloat the repo). The raw client videos (`img/Recursos*`, 100-455 MB `.MOV`s) are gitignored for the same reason; only the compressed cuts in `video/` ship.
 - [ ] `aviso-legal.html` keeps the original placeholder fields verbatim ("[añadir tu número o CIF…]", "[tu email de contacto profesional]", "[tu dirección fiscal o profesional]") — the source page on carlosesteva.es was never filled in. Ask Carlos for the real data.
 - [ ] No analytics/tracking pixel yet.
-- [ ] Custom domain not configured (served from github.io).
